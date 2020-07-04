@@ -3,7 +3,7 @@
 # Solution
 
 Approach- BFS
-To solve the given problem we need to make use of a Breadth First Search. In BFS, we start by pushing the root node into a queue. Then, we remove an element(node) from the front of the queuequeue. For every node removed from the queuequeue, we add all its children to the back of the same queuequeue. We keep on continuing this process till the queuequeue becomes empty. In this way, we can traverse the given tree on a level-by-level basis.
+To solve the given problem we need to make use of a Breadth First Search. In BFS, we start by pushing the root node into a queue. Then, we remove an element(node) from the front of the queue. For every node removed from the queue, we add all its children to the back of the same queue. We keep on continuing this process till the queue becomes empty. In this way, we can traverse the given tree on a level-by-level basis.
 
 The steps to be performed are listed below:
 1. Check if the root is not null and add to empty queue q.
@@ -18,7 +18,7 @@ The steps to be performed are listed below:
 # Complexity Analysis
 
 Time complexity : O(n). 
-The whole tree is traversed atmost once. Here, nn refers to the number of nodes in the given binary tree.
+The whole tree is traversed atmost once. Here, n refers to the number of nodes in the given binary tree.
 
 Space complexity : O(m). 
 The size of queue or temp can grow upto atmost the maximum number of nodes at any level in the given binary tree. Here, m refers to the maximum mumber of nodes at any level in the input tree.
